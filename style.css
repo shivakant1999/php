@@ -1,0 +1,10 @@
+form,h3{
+  text-align: center;
+  margin:250px;
+  padding: 20px;
+  margin-left: 525px;
+  margin-right: 525px;
+  border-style: solid;
+  border-color: rgb(34, 26, 26);
+  background-color: rgb(147, 253, 253);
+}
