@@ -1,0 +1,37 @@
+form{
+    margin:150px;
+    padding: 40px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-style: solid;
+    border-color: rgb(34, 26, 26);
+    background-color: rgb(169, 255, 222);
+    }
+  body{
+      background-image: url(8.jpg);
+      background-size: 100% 100%;
+  }
+  h2{
+      text-align: center;
+      color: rgb(15, 15, 15)!important;
+  }
+  h3{
+    width: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(15, 15, 15);
+    margin-left: 500px;
+    margin-right: 420px;
+    margin-top: 320px;
+    background-color: rgb(132, 243, 228);
+    border-radius: 35px;
+  }
+.abc{
+    width: 320px;
+    padding: -1px;
+    border: 2px solid rgb(14, 12, 12);
+    margin: 25px;
+    background-color:rgb(110, 188, 224);
+    border-radius: 35px;
+    color: black;
+}
