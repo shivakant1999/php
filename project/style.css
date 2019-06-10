@@ -1,11 +1,12 @@
 form{
-    margin:150px;
+    margin:60px;
     padding: 40px;
     margin-left: 450px;
     margin-right: 450px;
     border-style: solid;
     border-color: rgb(34, 26, 26);
     background-color: rgb(169, 255, 222);
+    border-radius: 3rem!important;
     }
   body{
       background-image: url(8.jpg);
