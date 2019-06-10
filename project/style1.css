@@ -1,0 +1,27 @@
+form{
+    margin:32px;
+    padding: 20px;
+    margin-left: 490px;
+    margin-right: 518px;
+    border-style: solid;
+    margin-top:500;
+    border-color: rgb(34, 26, 26);
+    background-color: rgb(169, 255, 222);
+    }
+    h1{
+        width: auto;
+        text-align: center;
+        padding: 15px;
+        border: 1px solid rgb(15, 15, 15);
+        margin-left: 400px;
+        margin-right: 420px;
+        margin-top: 100px;
+        background-color: rgb(132, 243, 228);
+        border-radius: 35px;
+      }
+      .ab{
+          text-align: center
+      }
+      body{
+          background-color: blanchedalmond;
+      }
