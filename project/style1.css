@@ -7,6 +7,7 @@ form{
     margin-top:500;
     border-color: rgb(34, 26, 26);
     background-color: rgb(169, 255, 222);
+    border-radius: 1rem;    
     }
     h1{
         width: auto;
