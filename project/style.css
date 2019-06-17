@@ -1,42 +1,252 @@
-form{
-    margin:60px;
-    padding: 40px;
-    margin-left: 450px;
-    margin-right: 450px;
-    border-style: solid;
-    border-color: rgb(34, 26, 26);
-    background-color: rgb(169, 255, 222);
-    border-radius: 3rem!important;
-    }
-  body{
-      background-image: url(8.jpg);
-      background-size: 100% 100%;
-  }
-  h2{
-      text-align: center;
-      color: rgb(15, 15, 15)!important;
-  }
-  h3{
-    width: auto;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid rgb(15, 15, 15);
-    margin-left: 500px;
-    margin-right: 420px;
-    margin-top: 320px;
-    background-color: rgb(132, 243, 228);
-    border-radius: 35px;
-  }
-.abc{
-    width: 320px;
-    padding: -1px;
-    border: 2px solid rgb(14, 12, 12);
-    margin: 25px;
-    background-color:rgb(110, 188, 224);
-    border-radius: 35px;
-    color: black;
-}
-body
+/* Style definition for body tag */
+.barone
 {
-  background-color: rgb(16, 146, 189);
+	/*margin:20px;*/
+	BACKGROUND-COLOR:#F89B51;
+	height:50px; 
+}
+body 
+{
+	FONT-SIZE: 18px; 
+	FONT-FAMILY: sans-serif, Verdana, Tahoma; 
+	TEXT-ALIGN: left;
+	BACKGROUND-COLOR:white;
+}
+
+
+/* Style definition for p tag */
+p
+{
+	FONT-SIZE: 12pt;
+	MARGIN: 0px 30px 0pt; 
+	COLOR: FEC56B;
+	FONT-FAMILY: sans-serif, Verdana, Tahoma;
+}
+
+/* Style definitions for headings */
+.heading1
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 28pt; 
+	FONT-FAMILY: sans-serif, Verdana, Tahoma;
+	COLOR: 51C5D4;
+	LETTER-SPACING: 3pt;
+}
+
+.heading2
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 22pt;
+	FONT-FAMILY: sans-serif, Verdana, Tahoma;
+	COLOR: GREY;
+	LETTER-SPACING: 3pt;
+}
+
+.heading3
+{
+	FONT-WEIGHT: bold;
+	font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    text-rendering: optimizeLegibility;
+	font-size: .9em;
+	COLOR: #4B781E;
+	LETTER-SPACING: 3pt;
+}
+
+
+/* Style definitions for table */
+table
+{
+	margin-top : 80px;
+	FONT-SIZE: 18px; 
+	BACKGROUND-COLOR:#FFFFFF;
+}
+
+table.layout
+{
+	width:70%;
+	margin-top:-620px;
+	BACKGROUND-COLOR:#FFFFFF;
+	text-wrap:none;
+}
+
+td {
+	COLOR: Grey;
+	FONT-SIZE: 14pt;
+	FONT-FAMILY: sans-serif, Verdana, Tahoma;
+}
+
+
+/* Style for  links */
+a:link
+{
+	COLOR: E48743; 
+	LETTER-SPACING: 3pt;    
+	TEXT-DECORATION: underline;
+	FONT-SIZE: 12pt;
+	FONT-FAMILY: Comic Sans MS; 
+}
+
+a:visited {
+	COLOR: 9E3B33;
+	LETTER-SPACING: 3pt;    
+	TEXT-DECORATION: underline;
+	FONT-SIZE: 12pt;
+	FONT-FAMILY: Comic Sans MS; 
+}
+a:active 
+{
+	COLOR: green; 
+	LETTER-SPACING: 3pt;    
+	TEXT-DECORATION: underline;
+	FONT-SIZE: 12pt;
+	FONT-FAMILY: Comic Sans MS; 
+}
+a:hover 
+{
+	COLOR: red;
+	LETTER-SPACING: 2pt;    
+	TEXT-DECORATION: none;
+	FONT-SIZE: 12pt;
+	FONT-FAMILY: Comic Sans MS; 
+}
+/* Style for Form elements */
+input,select,textarea
+{
+	border:2px solid #F8F8F8 ;
+	border-color:grey;
+	border-radius:10px;
+	FONT-FAMILY: Tahoma, sans-serif, Verdana;
+	font-color:blue;
+	FONT-SIZE:12pt;
+	background-color:#F8F8FF;
+}
+input:focus
+{
+    outline:none;
+    border-color:#ffa853;
+    box-shadow:0 0 10px #ffa853;
+}
+textarea:focus{
+    outline:none;
+    border-color:#ffa853;
+    box-shadow:0 0 10px #ffa853;
+}
+/* Style for Mandatory field(*) */
+
+textarea{
+	width : 176px;
+}
+select{
+	width : 55px;
+}
+
+.button{
+	min-height:25px;
+	margin:3px;
+	border:2px solid #F8F8F8;
+	border-radius:10px;
+	FONT-FAMILY: Tahoma, sans-serif, Verdana;
+	COLOR:#284224;
+	FONT-SIZE:12pt;
+	background-color:#F8F8F8;
+	border-color: #000000;
+}
+.button:hover{
+	outline:none;
+    border-color:#ffa853;
+    box-shadow:0 0 10px #ffa853;
+}
+.title{
+	color: #CBDAE2;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+	margin-left:20px;
+	margin-bottom : -35px;
+	margin-top:-35px;
+}
+.menusubnav{
+	margin-top:5px;
+	background:#ffffff;
+	margin-left:20px; padding:0;
+	margin-right:20px; 
+	width:200px; z-index:10;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
+	color:#D3D9DD;
+}
+.menusubnav li{
+	margin-top:0px; padding:0;
+	list-style:none;
+}
+.menusubnav a{
+	margin-left:0px;
+	margin:0px; padding:10px; display:block;
+	border-bottom: 1px solid #e0e0e0;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
+	text-decoration:none; color: #333;
+}
+.menusubnav a:hover{
+	background-color:#FEF5EE;
+}
+.orange{
+	BACKGROUND-COLOR:#F89B51;
+}
+.fontstyle{
+	font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    text-rendering: optimizeLegibility;
+	font-size: .9em;
+	color:#111B21;
+}
+.fontstyle1{
+	font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    text-rendering: optimizeLegibility;
+	font-size: .9em;
+	color:#111B21;
+	margin : 20px;
+}
+.maintitle
+{
+	FONT-WEIGHT: bold;
+	font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    text-rendering: optimizeLegibility;
+	font-size: 25px;
+	COLOR: #666666;
+}
+
+
+table.layoutx
+{
+	width:70%;
+	margin-top:-440px;
+	BACKGROUND-COLOR:#FFFFFF;
+	text-wrap:none;
+}
+
+
+table.layouty
+{
+	//width:70%;
+	margin-top:-470px;
+	BACKGROUND-COLOR:#FFFFFF;
+	text-wrap:none;
+}
+table.layout1
+{
+
+ margin-top:-290px;
+ BACKGROUND-COLOR:#FFFFFF;
+ text-wrap:none;
+}
+.head1
+{
+	FONT-WEIGHT: bold;
+	font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    text-rendering: optimizeLegibility;
+	font-size: .9em;
+	COLOR: #4B781E;
+	LETTER-SPACING: 3pt;
 }
